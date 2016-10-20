@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climb.ICacheProvider", "..\Climb.ICacheProvider\Climb.ICacheProvider\Climb.ICacheProvider.csproj", "{AF47790A-0221-42B3-8CA2-B55735357200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climb.NetCache", "..\Climb.NetCache\Climb.NetCache\Climb.NetCache.csproj", "{FA5C40F4-57DE-4A13-897B-E68EADA00527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climb.WebCache", "..\Climb.WebCache\Climb.WebCache\Climb.WebCache.csproj", "{A4CC3CA6-426C-4044-B978-31A76B5FDF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF47790A-0221-42B3-8CA2-B55735357200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF47790A-0221-42B3-8CA2-B55735357200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF47790A-0221-42B3-8CA2-B55735357200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF47790A-0221-42B3-8CA2-B55735357200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5C40F4-57DE-4A13-897B-E68EADA00527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5C40F4-57DE-4A13-897B-E68EADA00527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5C40F4-57DE-4A13-897B-E68EADA00527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5C40F4-57DE-4A13-897B-E68EADA00527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CC3CA6-426C-4044-B978-31A76B5FDF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CC3CA6-426C-4044-B978-31A76B5FDF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CC3CA6-426C-4044-B978-31A76B5FDF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CC3CA6-426C-4044-B978-31A76B5FDF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
