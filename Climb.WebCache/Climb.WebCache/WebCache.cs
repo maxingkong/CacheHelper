@@ -19,13 +19,21 @@ namespace Climb.WebCache
         {
 
         }
-
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="time"></param>
         public WebCache(int time)
         {
             TimeOut = time;
         }
         #endregion
 
+        /// <summary>
+        /// 添加缓存
+        /// </summary>
+        /// <param name="key">缓存键值</param>
+        /// <param name="obj">缓存对象</param>
         public void AddObject(string key, object obj)
         {
             WebDataCache.Insert(key, obj);
